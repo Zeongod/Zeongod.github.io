@@ -1,0 +1,167 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face{
+	font-family: RobotoR;
+	src: url(../fonts/Roboto-Regular.ttf);
+}
+html, body, main{
+	height: 100%;
+	font-family: RobotoR;
+
+}
+
+.first{
+	height: 100%;
+	background-image: url(../img/1.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.first p
+{
+	color: white;
+}
+.mountains
+{
+	width: 100%;
+	text-align: center;
+	padding-top: 80px;
+	font-size: 60px;
+	opacity: 0.5;
+}
+.text-container
+{
+	width: 40%;
+	margin-left: 15%;
+	margin-top: 15%;
+}
+.first-line
+{
+	text-transform: uppercase;
+	font-size: 26px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	opacity: 0.7;
+	line-height: 1;
+}
+
+.second-line
+{
+	text-transform: uppercase;
+	font-size: 64px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	line-height: 1;
+}
+
+.third-line
+{
+	font-size: 15px;
+	opacity: 0.7;
+}
+
+.second
+{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.gallery-container
+{
+	width: 1000px;
+	border: 5px double #000;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.img-container
+{
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+}
+
+img
+{
+	display: block;
+	max-width: 100%;
+	height: auto;
+	box-shadow: 0 0 10px 1px rgba(0,0,0,.3)
+}
+
+.img1
+{
+	width: 55%;
+}
+
+.wrapper
+{
+	margin-left: 20px;
+}
+
+.img2
+{
+	margin-bottom: 20px;
+}
+
+.gallery-header
+{
+	font-size: 48px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	line-height: 1;
+	margin-bottom: 28px;
+	margin-right: 10px;
+}
+
+.gallery-text
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.gallery-p
+{
+	font-size: 15px;
+	margin-bottom: 10px;
+	margin-right: 600px;
+}
+
+.last-container
+{
+	justify-content: center;
+	align-items: center;
+	flex-direction:column;
+	display: flex;
+	height: 300px;
+	padding: 0 25%;
+	background-image: url(../img/5.jpg);
+	background-position: center;
+	background-size: cover;
+	font-family: 'Roboto', sans-serif;
+}
+
+.last-header
+{
+	color: white;
+	font-style: 20px;
+	padding: 10px 20px;
+	border: 1px solid white;
+	margin-bottom: 40px;
+}
+
+.last-p
+{
+	color: white;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 1px;
+}
